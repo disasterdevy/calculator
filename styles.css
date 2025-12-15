@@ -14,13 +14,30 @@ body{
 }
 
 .container{
-    border: black;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 .display{
     background-color: grey;
+    display: flex;
+    height: 100px;
+    width: 300px;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
 }
 
 .inputButton{
     background-color: orange;
+    border: black solid 2px;
+    display: flex;
+    /* height: 50px;
+    width: 50px; */
 }
