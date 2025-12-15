@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center; 
+}
+
+.title{
+    font-size: 30px;
+}
+
+.container{
+    border: black;
+}
+
+.display{
+    background-color: grey;
+}
+
+.inputButton{
+    background-color: orange;
+}
