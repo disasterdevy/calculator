@@ -26,12 +26,16 @@ body{
     width: 300px;
 }
 
-.buttonContainer{
+.buttonContainerWhole{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     height: 300px;
     width: 300px;
+}
+
+.buttonContainer{
+    display: flex;
 }
 
 .inputButton{
