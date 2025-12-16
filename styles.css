@@ -22,6 +22,7 @@ body{
 .display{
     background-color: grey;
     display: flex;
+    align-items: center;
     height: 100px;
     width: 300px;
 }
@@ -35,13 +36,15 @@ body{
 }
 
 .buttonContainer{
-    display: flex;
+    display:flex;
+    flex-direction: row;
 }
 
 .inputButton{
     background-color: orange;
     border: black solid 2px;
-    display: flex;
+    text-align: center;
+    flex-grow: 1;
     /* height: 50px;
     width: 50px; */
 }
