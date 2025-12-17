@@ -40,6 +40,12 @@ body{
     flex-direction: row;
 }
 
+.buttonContainerColumn{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 .inputButton{
     background-color: orange;
     border: black solid 2px;
