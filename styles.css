@@ -22,9 +22,11 @@ body{
 .display{
     background-color: grey;
     display: flex;
-    align-items: center;
     height: 100px;
-    width: 300px;
+}
+
+.display_part{
+    background-color: grey;
 }
 
 .buttonContainerWhole{

@@ -1,5 +1,7 @@
 const display = document.querySelector('.display');
-let display_number = 0;
+
+
+let display_number_one = 0;
 let_display_number_two = 0;
 let operator;
 
@@ -15,11 +17,11 @@ let operator;
 // })
 
 // trying to fetch all buttons
-const inputButtons = document.querySelectorAll(".inputButton");
-length_buttons = inputButtons.length;
+const numberButtons = document.querySelectorAll(".inputButton");
+n_number_buttons = numberButtons.length;
 
-for(i=0; i<length_buttons; i++){
-    inputButtons[i].addEventListener("click", event =>{
+for(i=0; i<n_number_buttons; i++){
+    numberButtons[i].addEventListener("click", event =>{
     let target = event.target;
     
     if(target.matches("button")){
