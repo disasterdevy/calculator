@@ -1,5 +1,7 @@
 const display = document.querySelector('.display');
 let display_number = 0;
+let_display_number_two = 0;
+let operator;
 
 // successfully showing display_number on webpage
 // display.innerHTML = display_number;
@@ -21,7 +23,7 @@ for(i=0; i<length_buttons; i++){
     let target = event.target;
     
     if(target.matches("button")){
-        let value = target.innerHTML
+        let value = target.innerHTMLgit 
         document.querySelector(".display").value += value;
     }
 })}

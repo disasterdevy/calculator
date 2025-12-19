@@ -47,7 +47,16 @@ body{
     flex-grow: 1;
 }
 
-.inputButton{
+.operatorButton{
+    background-color: orange;
+    border: black solid 2px;
+    text-align: center;
+    flex-grow: 1;
+    /* height: 50px;
+    width: 50px; */
+}
+
+.numberButton{
     background-color: orange;
     border: black solid 2px;
     text-align: center;
