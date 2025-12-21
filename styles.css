@@ -9,6 +9,14 @@ body{
     align-items: center; 
 }
 
+input {
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
 .title{
     font-size: 30px;
 }
@@ -17,24 +25,25 @@ body{
     border: black solid 2px;
     display: flex;
     flex-direction: column;
+    height: 300px;
+    width: 300px;
 }
 
 .display{
     background-color: grey;
-    display: flex;
-    height: 100px;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
 }
 
 .display_part{
     background-color: grey;
-}
+}   
 
 .buttonContainerWhole{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 300px;
-    width: 300px;
 }
 
 .buttonContainer{
@@ -54,8 +63,6 @@ body{
     border: black solid 2px;
     text-align: center;
     flex-grow: 1;
-    /* height: 50px;
-    width: 50px; */
 }
 
 .numberButton{
@@ -63,6 +70,4 @@ body{
     border: black solid 2px;
     text-align: center;
     flex-grow: 1;
-    /* height: 50px;
-    width: 50px; */
 }
