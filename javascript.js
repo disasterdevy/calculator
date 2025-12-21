@@ -1,31 +1,29 @@
-const display = document.querySelector('.display');
-
-
-let display_number_one = 0;
-let_display_number_two = 0;
-let operator;
-
-// successfully showing display_number on webpage
-// display.innerHTML = display_number;
-
-// document.querySelector(".inputButton").addEventListener("click", event =>{
-//     let target = event.target;
-//     if(target.matches("button")){
-//         let value = target.innerHTML
-//         document.querySelector(".display").value += value;
-//     }
-// })
-
-// trying to fetch all buttons
-const numberButtons = document.querySelectorAll(".inputButton");
+// storing only buttons with numbers in nodelist
+const numberButtons = document.querySelectorAll(".numberButton");
 n_number_buttons = numberButtons.length;
 
+// storing only buttons with operators in nodelist
+const operatorButtons = document.querySelectorAll(".operatorButton");
+n_operator_buttons = operatorButtons.length;
+
+// add event to buttons with numbers
 for(i=0; i<n_number_buttons; i++){
     numberButtons[i].addEventListener("click", event =>{
     let target = event.target;
     
     if(target.matches("button")){
-        let value = target.innerHTMLgit 
-        document.querySelector(".display").value += value;
+        let value = target.innerHTML
+        document.querySelector(".display_part").value += value;
+    }
+})}
+
+// add event to buttons with operators
+for(i=0; i<n_operator_buttons; i++){
+    operatorButtons[i].addEventListener("click", event =>{
+    let target = event.target;
+    
+    if(target.matches("button")){
+        let value = target.innerHTML
+        document.querySelector("#display_operator").value = value;
     }
 })}
